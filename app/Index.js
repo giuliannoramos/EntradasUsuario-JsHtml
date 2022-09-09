@@ -10,9 +10,12 @@ function NovaEntrada() {
     botao.type = 'button';
     botao.value = '+';
     
+    var br = document.createElement('br')
+
     botao.onclick = NovaEntrada;
     form.appendChild(entrada);
     form.appendChild(botao);
+    form.appendChild(br);
     Somar();
 }
 
